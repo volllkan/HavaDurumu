@@ -1,0 +1,59 @@
+body {
+    background-image: url(pexels-rumeysa-akbaş-13320762.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: #7D7463;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: 'Protest Strike', sans-serif;
+}
+
+.box {
+    background: #7D7463;
+    padding: 2em;
+    border-radius: 20px;
+    width: 100%;
+    margin: 1em;
+    max-width: 400px;
+    font-family: 'Protest Strike', sans-serif;
+    opacity: 0.8;
+}
+
+.arama {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+input.arama-motoru{
+    border: none;
+    padding: 0.3em 1em;
+    border-radius: 20px;
+    outline: none;
+    background-color: #3b186973;
+    color: white;
+    font-family: 'Protest Strike', sans-serif;
+}
+button{
+    margin: 0.9em;
+    border: none;
+    border-radius: 40%;
+    height: 30px;
+    width: 30px;
+    color: cornflowerblue;
+    transition: ease-in-out;
+}
+
+button:hover {
+    background-color: black;
+    
+}
+
+h3 {
+    margin: 0;
+    text-transform: capitalize;
+}
